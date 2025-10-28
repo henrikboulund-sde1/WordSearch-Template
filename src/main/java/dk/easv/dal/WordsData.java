@@ -1,7 +1,6 @@
 package dk.easv.dal;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,7 +9,7 @@ import java.util.List;
 public class WordsData
 {
     private List<String> Words;
-    private final String WordsPath = "/Users/henrikboulund/Documents/WordSearch/brit-a-z.txt";
+    private final String WordsPath = "/Users/henrikboulund/Documents/WordSearch/brit-a-z.txt"; //Change to where you have the file located!
 
     public WordsData()
     {
