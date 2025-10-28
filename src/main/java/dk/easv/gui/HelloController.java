@@ -37,15 +37,6 @@ public class HelloController implements Initializable {
     @FXML
     private ListView lstHistory;
 
-    @FXML
-    private RadioButton rbtnWholeWord;
-
-    @FXML
-    private RadioButton rbtnPartOfWord;
-
-    @FXML
-    private Button btnClearSearchResult;
-
     private WordsLogic wordsLogic = new WordsLogic();
 
     @Override
